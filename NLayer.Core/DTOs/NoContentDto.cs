@@ -1,6 +1,5 @@
-﻿namespace NLayer.Core.DTOs
+﻿namespace NLayer.Core.DTOs;
+
+public class NoContentDto
 {
-    public class NoContentDto
-    {
-    }
 }

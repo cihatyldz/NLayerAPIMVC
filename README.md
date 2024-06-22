@@ -13,3 +13,12 @@
 #### Repository ve UniýtOfWork Sýnýfýlarýný Oluþturuyoruz
 #### Migration Ýþlemlerini Yapýyoruz
 
+
+### 3- Service Katmaný
+
+#### Service Sýnýfýmýzý Oluþturuyoruz
+#### Core Katmanýnda DTO larý Oluþturuyoruz
+#### AutoMapper Kullanýyoruz
+#### ReponseDTO Sýnýflarýný Oluþturuyoruz
+
+
