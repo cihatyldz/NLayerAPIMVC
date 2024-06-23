@@ -22,3 +22,10 @@
 #### ReponseDTO Sýnýflarýný Oluþturuyoruz
 
 
+### 4- API Katmaný
+
+#### Controllerýmýzý Oluþturuyoruz
+#### Classlarýmýzýn Generiz Repository ve Servicelerini Oluþturuyoruz
+#### FluentValidation Kullanýyoruz
+
+

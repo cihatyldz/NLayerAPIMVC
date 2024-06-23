@@ -1,14 +1,18 @@
-﻿namespace NLayer.Repository.Repositories;
+﻿using Microsoft.EntityFrameworkCore;
+using NLayer.Core.Entities;
+using NLayer.Core.Repositories;
+using NLayer.Repository.Context;
 
-//public class ProductRepository : GenericRepository<Product>, IProductRepository
-//{
-//    public ProductRepository(AppDbContext context) : base(context)
-//    {
-//    }
+namespace NLayer.Repository.Repositories;
 
-//    public async Task<List<Product>> GetProductsWitCategory()
-//    {
+public class ProductRepository : GenericRepository<Product>, IProductRepository
+{
+    public ProductRepository(AppDbContext context) : base(context)
+    {
+    }
 
-//        return await _context.Products.Include(x => x.Category).ToListAsync();
-//    }
-//}
+    public async Task<List<Product>> GetProductsWitCategory()
+    {
+        return await _context.Products.Include(x => x.Category).ToListAsync();
+    }
+}

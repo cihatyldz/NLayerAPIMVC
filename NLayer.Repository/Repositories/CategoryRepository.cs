@@ -1,13 +1,18 @@
-﻿namespace NLayer.Repository.Repositories;
+﻿using Microsoft.EntityFrameworkCore;
+using NLayer.Core.Entities;
+using NLayer.Core.Repositories;
+using NLayer.Repository.Context;
 
-//public class CategoryRepository : GenericRepository<Category>, ICategoryRepository
-//{
-//    public CategoryRepository(AppDbContext context) : base(context)
-//    {
-//    }
+namespace NLayer.Repository.Repositories;
 
-//    public async Task<Category> GetSingleCategoryByIdWithProductsAsync(int categoryId)
-//    {
-//        return await _context.Categories.Include(x => x.Products).Where(x => x.Id == categoryId).SingleOrDefaultAsync();
-//    }
-//}
+public class CategoryRepository : GenericRepository<Category>, ICategoryRepository
+{
+    public CategoryRepository(AppDbContext context) : base(context)
+    {
+    }
+
+    public async Task<Category> GetSingleCategoryByIdWithProductsAsync(int categoryId)
+    {
+        return await _context.Categories.Include(x => x.Products).Where(x => x.Id == categoryId).SingleOrDefaultAsync();
+    }
+}
