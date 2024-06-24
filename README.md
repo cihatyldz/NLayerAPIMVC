@@ -27,5 +27,7 @@
 #### Controllerýmýzý Oluþturuyoruz
 #### Classlarýmýzýn Generiz Repository ve Servicelerini Oluþturuyoruz
 #### FluentValidation Kullanýyoruz
+#### Middewares Oluþturuyoruz
+#### Autofac Kullanýyoruz
 
 
