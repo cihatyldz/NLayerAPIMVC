@@ -29,5 +29,6 @@
 #### FluentValidation Kullanýyoruz
 #### Middewares Oluþturuyoruz
 #### Autofac Kullanýyoruz
+#### Caching(MemoryCach) Kullanýyoruz
 
 
