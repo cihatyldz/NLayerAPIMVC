@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using NLayer.Web.Models;
+using NLayer.Core.DTOs;
 using System.Diagnostics;
 
 namespace NLayer.Web.Controllers;

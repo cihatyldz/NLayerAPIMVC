@@ -38,3 +38,9 @@ Caching(MemoryCach) Kullanýyoruz
 Controllerýmýzý Oluþturuyoruz
 AutoFac Kullanýyoruz
 FluentValidation Kullanýyoruz
+
+
+
+### 6- MVC-API
+
+ApiServicelerini Yazýlmasý
