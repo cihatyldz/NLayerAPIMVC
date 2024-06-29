@@ -44,3 +44,6 @@ FluentValidation Kullanýyoruz
 ### 6- MVC-API
 
 ApiServicelerini Yazýlmasý
+
+
+Responselarý DTO Dönüþtürme
